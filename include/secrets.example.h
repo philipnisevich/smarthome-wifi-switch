@@ -18,6 +18,7 @@ static const char *const TUYA_DEVICE_IDS[] = {
     "your_device_id_1",
 };
 
+/* On/off code from Tuya console device specification (e.g. switch_led, switch_1, switch). */
 #define TUYA_DP_CODE "switch_led"
 
 #define BUTTON_GPIO 18
